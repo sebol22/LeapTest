@@ -1,0 +1,72 @@
+{
+  "$id": "1",
+  "Flowchart": {
+    "$id": "2",
+    "Version": "2.24",
+    "BuildingBlockMs": [
+      {
+        "$id": "3",
+        "$type": "LeapTest.Models.Models.BuildingBlocks.Miscellaneous.StartBuildingBlockM, LeapTest.Models",
+        "Position": "5000,5000",
+        "FlowProperties": [
+          {
+            "$id": "4",
+            "$type": "LeapTest.Models.Models.FlowProperties.HeaderFlowProperty, LeapTest.Models",
+            "Title": "Start",
+            "Key": "Header",
+            "PropertyType": "Execution",
+            "ParentBuildingBlock": {
+              "$ref": "3"
+            },
+            "OutputConnector": {
+              "$id": "5",
+              "ParentFlowPropertyM": {
+                "$ref": "4"
+              },
+              "Id": "3515076c-51f9-4c78-a40f-00ca7a469073"
+            },
+            "CanHaveValue": false,
+            "Id": "1d2f734a-f28b-4890-922d-ab739b7d0a09"
+          },
+          {
+            "$id": "6",
+            "$type": "LeapTest.Models.Models.FlowProperties.DataTypeFlowProperties.DictionaryFlowProperty, LeapTest.Models",
+            "DictionaryKey": "StartAction",
+            "Key": "StartAction",
+            "IsMain": true,
+            "ParentBuildingBlock": {
+              "$ref": "3"
+            },
+            "EditorValue": {
+              "$id": "7",
+              "$type": "LeapTest.Models.Models.LDataTypes.LText, LeapTest.Models",
+              "Value": "NoAction"
+            },
+            "DefaultValue": {
+              "$ref": "7"
+            },
+            "Id": "38a010c4-159d-4ab8-81ca-2c80f9a0de62"
+          }
+        ],
+        "Title": "Start",
+        "CreatedAt": "2018-02-05T10:58:40.1531398",
+        "ModifiedAt": "2018-02-05T10:58:40.1531398",
+        "Id": "6725bea1-697a-45be-a538-457d1d6b4d41"
+      }
+    ],
+    "ZoomFactor": 100.0,
+    "Position": "-4950,-4950",
+    "Size": "10000,10000",
+    "CreatedAt": "2018-02-05T10:58:40.1531398",
+    "ModifiedAt": "2018-02-05T10:58:40.1531398",
+    "Id": "9624902d-77c8-4520-ba88-9da2184f698a"
+  },
+  "IsFailedUnlessPassed": true,
+  "TimeOut": 600,
+  "CaseType": "Web",
+  "Title": "SiteCoreAutomationChrome",
+  "CreatedAt": "2018-02-05T10:58:40.1531398",
+  "ModifiedAt": "2018-02-05T10:58:40.1531398",
+  "SortOrder": 1.0,
+  "Id": "7cbebe45-5fd1-40ff-a1ed-1da977b616aa"
+}
